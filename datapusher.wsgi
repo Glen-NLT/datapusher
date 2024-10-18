@@ -9,5 +9,5 @@ execfile(activate_this, dict(__file__=activate_this))
 # check whether jobs have been imported properly
 assert(jobs.push_to_datastore)
 
-web.configure()
+# web.configure()
 application = web.app

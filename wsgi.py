@@ -4,7 +4,7 @@ import datapusher.jobs as jobs
 # check whether jobs have been imported properly
 assert(jobs.push_to_datastore)
 
-web.configure()
+# web.configure()
 app = web.app
 
 if __name__ == "__main__":

@@ -22,7 +22,7 @@ import ckanserviceprovider.util as util
 os.environ['JOB_CONFIG'] = os.path.join(os.path.dirname(__file__),
                                         'settings_test.py')
 
-web.configure()
+# web.configure()
 app = main.serve_test()
 
 
